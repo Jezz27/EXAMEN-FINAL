@@ -33,7 +33,6 @@ public class Agente extends Entidad {
 
     public void incrementarNivel() {
         this.nivel++;
-        System.out.println("Nivel actual del agente: " + nivel);
     }
 
     @Override
